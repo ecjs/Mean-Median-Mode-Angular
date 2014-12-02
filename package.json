@@ -4,7 +4,7 @@
   "description": "Angular frontend for MMM",
   "main": "server.js",
   "scripts": {
-    "test": "npm test"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",

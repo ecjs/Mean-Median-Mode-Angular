@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mean, Median, Mode + Angular!</title>
+</head>
+<body>
+  <h1>Mean, Median, Mode!</h1>
+  <div data-ng-app="mmmApp">
+    <div data-ng-controller="mmmCtrl">
+      <label>Numbers to get Mean, Median Mode with:</label></br>
+      <input type="text" data-ng-model="mmm.numbers"/>
+      <button data-ng-click="sendMMM()">Get MMM!</button>
+      </br>
+      </br>
+      <div data-ng-hide="hiddenMMM">
+        <p>Mean: {{mmm.mean}}</p>
+        <p>Median: {{mmm.median}}</p>
+        <p>Mode: {{mmm.mode}}</p>
+      </div>
+  </div>
+</div>
+
+<script src="client_bundle.js"></script>
+</body>
+</html>

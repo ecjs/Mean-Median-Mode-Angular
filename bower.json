@@ -1,0 +1,27 @@
+{
+  "name": "Mean-Median-Mode-Angular",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ecjs/Mean-Median-Mode-Angular",
+  "authors": [
+    "Mark Harrell <mark@mjharrell.com>"
+  ],
+  "description": "Mean Median Mode Angular frontend",
+  "keywords": [
+    "mean",
+    "median",
+    "mode",
+    "angular"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.4"
+  }
+}
